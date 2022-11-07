@@ -1,0 +1,30 @@
+footer{
+    background-color: #0f1111;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo{
+   text-align: center;
+   line-height: 2;
+    .terms-and-privacy{
+        a{
+            text-decoration: none;
+            color: #0f79af;
+        }
+        a:hover{
+            color: #63b4dd;
+        }
+    }
+    .terms-and-privacy{
+        display: flex;
+        gap: 1rem;
+    }
+    .privacy{
+        p{
+            color: #949494;
+        }
+    }
+}

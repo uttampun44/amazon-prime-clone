@@ -1,0 +1,112 @@
+nav {
+  width: 100%;
+  background: #0f171e;
+  position: fixed;
+  top: 0;
+}
+nav .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: relative;
+  z-index: -1;
+}
+nav .logo-div img {
+  width: 150px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+nav .signin a {
+  color: rgba(242, 244, 246, 0.9);
+  font-weight: 400;
+}
+nav .globe-icon-section {
+  display: flex;
+  gap: 0.5rem;
+}
+nav .language-icon span {
+  font-size: 1rem;
+  color: rgba(242, 244, 246, 0.9);
+  font-weight: 500;
+  position: relative;
+  bottom: 7px;
+}
+nav .language-icon a {
+  text-decoration: none;
+}
+
+.language {
+  padding: 2rem 0rem 2rem 3rem;
+  background-color: #252e39;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
+  max-height: 290px;
+  box-shadow: 0 4px 8px #000;
+  position: absolute;
+  top: 4rem;
+  right: 5rem;
+  overflow: hidden;
+  height: 100%;
+  display: none;
+}
+.language .language-first {
+  border-right: 1px solid #111213;
+}
+.language .language-first a {
+  color: #c4cacf;
+  text-decoration: none;
+  line-height: 2;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.language .language-first a:hover {
+  background-color: #0f171e;
+  width: 100%;
+}
+.language .language-first::-webkit-scrollbar {
+  overflow-y: scroll;
+  box-sizing: content-box;
+  height: 100%;
+}
+.language .language-second {
+  border-right: 1px solid #111213;
+}
+.language .language-second a {
+  color: #c4cacf;
+  text-decoration: none;
+  line-height: 2;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.language .language-second::-webkit-scrollbar {
+  overflow-y: scroll;
+  box-sizing: content-box;
+  height: 100%;
+}
+.language .language-third {
+  border-right: 1px solid #111213;
+}
+.language .language-third a {
+  color: #c4cacf;
+  text-decoration: none;
+  line-height: 2;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.language .language-third::-webkit-scrollbar {
+  overflow-y: scroll;
+  box-sizing: content-box;
+  height: 100%;
+}
+
+#en {
+  text-decoration: none;
+  color: rgba(242, 244, 246, 0.9);
+  font-weight: 400;
+}/*# sourceMappingURL=Navbar.css.map */

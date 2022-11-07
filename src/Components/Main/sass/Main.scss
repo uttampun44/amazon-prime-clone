@@ -1,0 +1,95 @@
+
+main{
+    background-image: linear-gradient(to right, black 40%, transparent 58%), url('/src/Components/images/amazon prime.jpg');
+     background-size: contain;
+     background-repeat: no-repeat;
+}
+.amazon-prime-heading{
+    padding: 90px;
+    margin-top: 5rem;
+    // padding-bottom: 1rem !important;
+    .amazon-heading{
+        display: grid;
+        row-gap: 2rem;
+        max-width: 720px;
+        font-weight: 600;
+        h1{
+            color: #fff;
+        }p{
+            color: #fff;
+            line-height: 1.5;
+            font-size: 1.3rem;
+            font-weight: 400;
+        }
+    }
+    .video-member{
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        display: grid;
+        max-width: 300px;
+        text-align: center;
+        gap: 5px;
+        a{
+            color: #fff;
+            text-decoration: none;
+            background-color: #0f79af;
+            font-size: 1rem;
+            font-weight: 600;
+            padding: 1rem 2rem 1rem 2rem;
+        }
+        p{
+            color: #fff;
+        }
+        #membership{
+            margin-top: 3rem;
+        }  
+    }
+    .or{
+        display: flex;
+        align-items: baseline;
+        gap: 1rem;
+        padding-bottom: 1rem;
+        span{
+            color: white;
+            width: 125px;
+            border: 1px solid white;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        }
+        p{
+            color: #fff;
+        }
+    }
+}
+.offer{
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+    .offer-section{
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 5rem;
+        text-align: center;
+        padding-bottom: 2rem;
+        h1{
+            font-size: 2rem;
+            line-height: 2;
+            font-weight: 600;
+        }
+        p{
+            line-height: 1.5;
+            font-weight: 400;
+        }
+        .watch-anywhere{
+            max-width: 350px;
+        }
+        .download{
+            max-width: 350px;
+        }
+        .server{
+            max-width: 350px;
+        }
+    }
+}
