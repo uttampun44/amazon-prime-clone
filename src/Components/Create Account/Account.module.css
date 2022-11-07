@@ -1,0 +1,74 @@
+.createaccount{
+    text-align: center;
+}
+.heading{
+    border: 1px solid  #e7e9ec;
+    padding: 2rem;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: start;
+    line-height: 2;
+    border-radius: 8px;
+}
+.heading > h2{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+ label{
+    font-weight: 700;
+    font-size: 12px;
+}
+input{
+        width: 20rem;
+        height: 2rem;
+        border-radius: .2rem;
+        outline-color: rgb(238, 179, 92);
+        border: 1px solid #ddd;
+        box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+        padding-left: 10px;
+}
+.alert{
+    display: flex;
+    align-items: center;
+    line-height: 3;
+}
+#password{
+    padding-left: 10px;
+}
+.create{
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+    text-align: center;
+    margin-top: 1rem;
+    margin-right: .9rem;
+    border: 1px solid #ddd;
+}
+.create a{
+    text-decoration: none;
+    color: black;
+}
+
+.termsofuse{
+    line-height: 1.5 !important;
+    margin-top: 1rem;
+    font-size: 12px;
+    font-weight: 500;
+}
+.termsofuse > a{
+    color: #0066c0;
+    text-decoration: none;
+}
+.alreadyaccount{
+    font-size: 13px;
+    line-height: 1.2;
+    margin-top: 2rem;
+    border-top:  1px solid #ddd;
+    padding-top: 1rem;
+}
+.alreadyaccount > a{
+    color: #0066c0;
+    text-decoration: none; 
+}

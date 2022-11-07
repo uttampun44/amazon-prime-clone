@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './sass/sign.css';
 import Primelogo from '../images/primevideo-login.png';
-
+import { Link } from 'react-router-dom';
 function Sign() {
-
+   
   return (
     <div className='sigup-section'>
     <img src={Primelogo}/>
@@ -37,7 +37,7 @@ function Sign() {
                        <span id='line-amazon'></span><span>New to Amazon ?</span><span id='line-amazon'></span>
                     </div>
                      <br></br>
-                    <a href='#' id='createaccount'>Create your Amazon account</a>
+                    <Link to='/createaccount' id='link'> <a id='createaccount' >Create your Amazon account</a></Link>
 
                     </div>
    
