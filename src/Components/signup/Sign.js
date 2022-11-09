@@ -37,7 +37,7 @@ function Sign() {
                        <span id='line-amazon'></span><span>New to Amazon ?</span><span id='line-amazon'></span>
                     </div>
                      <br></br>
-                    <Link to='/createaccount' id='link'> <a id='createaccount' >Create your Amazon account</a></Link>
+                    <Link to='/createaccount' id='link'><button id='createaccount'>Create account</button></Link>
 
                     </div>
    

@@ -115,3 +115,9 @@ nav{
     color: rgba(242,244,246,.9);
     font-weight: 400;
 }
+@media (min-width: 320px) and (max-width: 480px){
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+}

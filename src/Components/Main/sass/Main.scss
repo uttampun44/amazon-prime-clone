@@ -1,13 +1,12 @@
 
 main{
     background-image: linear-gradient(to right, black 40%, transparent 58%), url('/src/Components/images/amazon prime.jpg');
-     background-size: contain;
+    background-size: 100% 75%;
      background-repeat: no-repeat;
 }
 .amazon-prime-heading{
     padding: 90px;
     margin-top: 5rem;
-    // padding-bottom: 1rem !important;
     .amazon-heading{
         display: grid;
         row-gap: 2rem;
@@ -92,4 +91,98 @@ main{
             max-width: 350px;
         }
     }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .watch-anywhere{
+        img{
+            width: 250px
+        }
+    }
+    .download {
+        img{
+            width: 250px;
+        }
+    }
+    .server{
+        img{
+            width: 250px;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .offer-section{
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .watch-anywhere{
+        min-width: 270px;
+        img{
+            width: 200px;
+            object-fit: fill;
+        }
+    }
+    .download {
+        min-width: 270px;
+        img{
+            width: 200px;
+            object-fit: fill;
+        }
+    }
+    .server{
+        min-width: 270px;
+        img{
+            width: 200px;
+            object-fit: fill;
+        }
+    }
+}
+@media (min-width: 280px) and (max-width: 767px){
+    .offer-section{
+      display: flex !important;
+      flex-direction: column !important;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+      row-gap: 2rem;
+    }
+    .watch-anywhere{
+        max-width: none !important;
+        img{
+            width: 200px !important;
+        }
+    }
+    .download{
+        max-width: none !important;
+         img{
+            width: 200px !important;
+         }
+    }
+    .server{
+        max-width: none !important;
+       img{
+        width: 200px !important;
+       }
+    }
+    main{
+        image-rendering: -webkit-optimize-contrast;
+    }
+    
+}
+@media (min-width: 280px) and (max-width: 480px){
+  .amazon-prime-heading{
+    text-align: center;
+    .video-member {
+            a{
+                font-size: 14px;
+            }
+    }
+  }
+  
+  main{
+    background: black;
+  }
+
 }

@@ -23,4 +23,12 @@ footer {
 }
 .footer-logo .privacy p {
   color: #949494;
+}
+
+@media (min-width: 280px) and (max-width: 600px) {
+  .terms-and-privacy {
+    display: grid;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
 }/*# sourceMappingURL=footer.css.map */

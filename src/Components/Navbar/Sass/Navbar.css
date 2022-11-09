@@ -109,4 +109,11 @@ nav .language-icon a {
   text-decoration: none;
   color: rgba(242, 244, 246, 0.9);
   font-weight: 400;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=Navbar.css.map */

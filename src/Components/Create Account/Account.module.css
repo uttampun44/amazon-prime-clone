@@ -37,19 +37,19 @@ input{
 #password{
     padding-left: 10px;
 }
-.create{
-    font-size: 1rem;
+.create button{
+    font-size: .9rem;
     font-weight: 400;
     background-color: #f0c14b;
-    border-color: #a88734 #9c7e31 #846a29;
+    border-color: hsl(43, 53%, 43%) #9c7e31 #846a29;
     text-align: center;
     margin-top: 1rem;
     margin-right: .9rem;
     border: 1px solid #ddd;
-}
-.create a{
-    text-decoration: none;
-    color: black;
+    padding-left: 4.2rem;
+    padding-right: 4rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
 
 .termsofuse{
@@ -72,4 +72,20 @@ input{
 .alreadyaccount > a{
     color: #0066c0;
     text-decoration: none; 
+}
+.footer{
+margin: auto;
+max-width: 400px;
+height: 100px;
+}
+.footerchild{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 3rem;
+}
+.footerchild a{
+    text-decoration: none;
+    color: #0066c0;
+    font-size: 12px;
+    font-weight: 400;
 }
