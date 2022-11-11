@@ -119,5 +119,8 @@ nav .language-icon a {
   .language {
     right: 0rem !important;
     top: 7.5rem;
+    padding: 2rem 0rem 2rem 0rem !important;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
   }
 }/*# sourceMappingURL=Navbar.css.map */
