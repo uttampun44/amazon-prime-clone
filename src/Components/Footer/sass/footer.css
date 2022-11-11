@@ -27,7 +27,7 @@ footer {
 
 @media (min-width: 280px) and (max-width: 600px) {
   .terms-and-privacy {
-    display: grid;
+    display: grid !important;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
