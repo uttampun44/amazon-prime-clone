@@ -11,9 +11,9 @@ function Footer() {
            </div>
            
            <div className='terms-and-privacy'>
-            <span><a href='#'>Terms and Privacy Notice</a></span>
-            <span><a href='#'>Send us feedback</a></span>
-            <span><a href='#'>Help</a></span>
+            <span><a href='#terms'>Terms and Privacy Notice</a></span>
+            <span><a href='#send'>Send us feedback</a></span>
+            <span><a href='#help'>Help</a></span>
            </div>
 
            <div className='privacy'>

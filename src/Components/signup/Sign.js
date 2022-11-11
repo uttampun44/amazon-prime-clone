@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import './sass/sign.css';
 import Primelogo from '../images/primevideo-login.png';
 import { Link } from 'react-router-dom';
@@ -6,7 +5,7 @@ function Sign() {
    
   return (
     <div className='sigup-section'>
-    <img src={Primelogo}/>
+    <img src={Primelogo} alt=""/>
         <div className='form-sign-in'>
              
          <div className='form'>
@@ -19,7 +18,7 @@ function Sign() {
                    <div className='password'>
                     
                    <div className='pass'>
-                    <label id='password'>Password</label><label id='password'><a href='#'>Forgot your password</a></label>
+                    <label id='password'>Password</label><label id='password'><a href='#home'>Forgot your password</a></label>
                     </div>
                     <input type="password"/>
                     <br></br>

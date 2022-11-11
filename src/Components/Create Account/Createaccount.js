@@ -22,7 +22,7 @@ const formInput = (e) =>{
 }
   const formSubmit = (e) => {
    setForm({yourname: '', email: '', password: '', repassword: '' });
-   if(formdata.password != formdata.repassword){
+   if(formdata.password !== formdata.repassword){
     alert('Password are not matching');
    }else{
      alert("form submit successfull");
@@ -65,10 +65,10 @@ const formInput = (e) =>{
 
                <div className={Account.termsofuse}>
                 <p>By creating an account, you agree to the Amazon</p>
-                <a href='#'>Conditions of Use and Privacy Notice.</a>
+                <a href='#contact'>Conditions of Use and Privacy Notice.</a>
                </div>
                <div className={Account.alreadyaccount}>
-                  <span>Already have an account?</span> &nbsp; <a href="#">Sign in</a>
+                  <span>Already have an account?</span> &nbsp; <a href="#sign">Sign in</a>
                </div>
            </div>
            
@@ -80,7 +80,7 @@ const formInput = (e) =>{
       <div className={Account.footer}>
       <div className={Account.footerchild}>
      
-       <span><a href='#'>Terms and Privacy Notice</a></span> <span><a href='#'>Send us Feedback</a></span> <span><a href='#'>Help</a></span>
+       <span><a href='#terms'>Terms and Privacy Notice</a></span> <span><a href='#send'>Send us Feedback</a></span> <span><a href='#help'>Help</a></span>
       </div>
       <span>© 1996-2022, Amazon.com, Inc. or its affiliates</span>
       

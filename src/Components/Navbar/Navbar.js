@@ -30,7 +30,7 @@ function Navbar() {
                  <div className='globe-icon-section'>
                
                  <div className='language-icon'>
-                <a href='#' onClick={Dropdown}><LanguageIcon htmlColor='rgba(242,244,246,.9)'/>
+                <a href='#home' onClick={Dropdown}><LanguageIcon htmlColor='rgba(242,244,246,.9)'/>
                 </a> 
                   <span><a href='english.com' id='en'> EN</a></span>
                  <ExpandMoreIcon style={{transform: click? 'rotate(360deg)' : 'rotate(180deg)'}} htmlColor='#8197a4'/>

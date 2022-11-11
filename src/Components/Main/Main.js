@@ -16,11 +16,11 @@ function Main() {
                 </div>
 
                 <div className='video-member'>
-                 <a href='#'><span>Prime Video Member? Sign In</span></a>
+                 <a href='#prime'><span>Prime Video Member? Sign In</span></a>
                  <div className='or'>
                  <span></span><p>or</p><span></span>
                  </div>
-                  <a href='#'><span>Start Your Free Trail*</span></a>
+                  <a href='#start'><span>Start Your Free Trail*</span></a>
                   <p id='membership'>Membership renews at USD 5.99/month.</p>
                  </div>
                  

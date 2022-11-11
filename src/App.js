@@ -2,7 +2,6 @@ import './App.css';
 import Nav from './Components/Navbar/Navbar';
 import {BrowserRouter, Routes, Route,} from 'react-router-dom';
 import Signup from './Components/signup/Sign'
-import Main from './Components/Main/Main'
 import Createaccount from './Components/Create Account/Createaccount';
 function App() {
   return (
