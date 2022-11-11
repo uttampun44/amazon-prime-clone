@@ -116,4 +116,8 @@ nav .language-icon a {
     display: flex;
     flex-direction: column;
   }
+  .language {
+    right: 0rem !important;
+    top: 7.5rem;
+  }
 }/*# sourceMappingURL=Navbar.css.map */

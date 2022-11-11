@@ -145,21 +145,28 @@ main {
     margin-left: auto;
     margin-right: auto;
     row-gap: 2rem;
+    padding-bottom: 4rem !important;
   }
   .watch-anywhere {
-    max-width: none !important;
+    min-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .watch-anywhere img {
     width: 200px !important;
   }
   .download {
-    max-width: none !important;
+    min-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .download img {
     width: 200px !important;
   }
   .server {
-    max-width: none !important;
+    min-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .server img {
     width: 200px !important;
@@ -171,6 +178,7 @@ main {
 @media (min-width: 280px) and (max-width: 480px) {
   .amazon-prime-heading {
     text-align: center;
+    padding-bottom: 0;
   }
   .amazon-prime-heading .video-member a {
     font-size: 14px;
